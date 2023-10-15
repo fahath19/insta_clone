@@ -61,6 +61,7 @@ p{
 /*STORY STYLING END*/
 .posts{
     margin: 10px 0 0 0;
+
 }
 .profile{
     display: flex;
@@ -120,4 +121,34 @@ h2:hover{
 }
 .comment_section .save {
     margin: 10px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+     bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 0rem;
+}
+footer i{
+    font-size: 1.7rem;
+    margin-left: 1.8rem;
+    color: white;
+
+}
+footer i:hover{
+    color: pink;
+}
+footer i:nth-child(1){
+    padding: 0px 14px 0px 2px;
+}
+footer i:nth-child(2){
+    padding: 10px 12px 0 2px;
+}footer i:nth-child(3){
+    padding: 10px 1px 0 2px;
+
+}footer i:nth-child(4){
+    padding: 10px 10px 0 2px;
+
 }
